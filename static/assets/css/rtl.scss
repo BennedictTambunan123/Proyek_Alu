@@ -1,0 +1,750 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Home Page One */
+
+.navbar-area {
+    .main-nav {
+        .navbar {
+            .other-option {
+                .signup-btn {
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    .dropdown-menu {
+                        left: inherit;
+                        right: -100%;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner-section {
+    .banner-content {
+        .banner-form {
+            .form-group {
+               text-align: right;
+            }
+
+            .find-btn {
+                i {
+                    right: 10px;  
+                }
+            }
+        }
+    }
+}
+
+.job-card {
+    .job-info {
+        ul {
+            padding-right: 0;
+
+            li {
+                padding-right: 0;
+            }
+        }
+    }
+}
+
+.why-choose-text {
+    .media {
+        i {
+            margin-right: 0 !important;
+            margin-left: 16px;
+        }
+    }
+}
+
+.recruiting-card, .looking-job {
+    .bottom-icon {
+        left: 10px;
+        right: inherit;
+    }
+
+    .media {
+        i {
+            margin-left: 16px;
+            margin-right: 0 !important;
+        }
+    }
+}
+
+.price-card {
+    .price-feature {
+        ul {
+            padding-right: 0;
+        }
+    }
+}
+
+.condidate-item {
+    .candidate-text {
+
+        ul {
+            padding-right: 0;
+        }
+
+        .bottom-text {    
+            p {
+                float: right;
+            }
+
+            a {
+                float: left;
+            }
+        }
+    }
+}
+
+.testimonial-items {
+    .testimonial-img {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .testimonial-text {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+}
+
+.price-card {
+    &::before {
+        left: inherit;
+        right: 0;
+    }
+}
+
+.testimonial-slider {
+    .owl-next {
+        left: 25px;
+        right: inherit;
+    }
+}
+
+.blog-card {
+    .blog-text {
+        ul {
+            padding-right: 0;
+
+            li {
+                margin-right: 0px;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.footer-area {
+    .footer-widget {
+
+        h3 {
+            &::before {
+                left: inherit;
+                right: 0;
+            }
+        }
+
+        ul {
+            padding-right: 0;
+        }
+
+        &.pl-60 {
+            padding-right: 60px;
+            padding-left: 0;
+        }
+
+        &.footer-info {
+            ul {
+                li {
+
+                    a {
+                        padding-right: 25px;
+                        padding-left: 0;
+                    }
+
+                    &:last-child {
+                        padding-right: 25px;
+                        padding-left: 0;
+                    }
+
+                    &:last-child span {
+                        right: -25px;
+                        left: 0;
+                    }
+
+                    span {
+                        i {
+                            margin-right: 0px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-social {
+            a{
+                i {
+                    margin-left: 5px;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+
+/* Home Page Two */
+.banner-style-two {
+    .banner-img {
+        left: 5%;
+        right: inherit;
+    }
+}
+
+.find-form {
+
+    .form-group {
+        i {
+            left: 15px;
+            right: inherit;
+        }
+    }
+
+    .find-btn {
+        i {
+            left: 0;
+            right: 10px;
+        }
+    }
+
+    .nice-select {
+        &::after {
+            left: 20px;
+            right: inherit;
+        }
+
+        .option {
+            text-align: right;
+        }
+
+        .current {
+            float: right;
+        }
+    }
+}
+
+.job-card-two {
+    .job-info {
+        padding-right: 35px;
+        padding-left: 0;
+
+        ul {
+            padding-right: 0;
+
+            li {
+                padding-left: 10px;
+                padding-right: 0;
+            }
+        }
+    }
+
+    .theme-btn {
+        &.text-right {
+            text-align:  left !important;
+        }
+    }
+}
+
+/* Home Page Three */
+.category-item {
+    padding-right: 100px;
+    padding-left: 0;
+
+    i {
+        right: 15px;
+        left: inherit;
+    }
+}
+
+.browse-job {
+    &::before {
+        right: inherit;
+        left: 0;
+    }
+
+    .browse-jobs-text {
+        .app-btn {
+            .play-store, .app-store {
+                i {
+                    right: 15px;
+                    left: inherit;
+                }
+            }
+        }
+    }
+
+    .browse-job-img {
+        left: 20%;
+        right: inherit;
+    }
+}
+
+.subscribe-section {
+    .newsletter-form {
+        .form-control {
+            text-align: left;
+        }
+    }
+
+}
+
+
+/* Home Page Four */
+.banner-style-four {
+    &::before {
+        right: 0;
+        left: inherit;
+    }
+    .banner-text {
+        .theme-btn {
+            .default-btn {
+                margin-left: 15px;
+                margin-right: 0;
+            }
+        }
+    }
+    .banner-img {
+        left: 100px;
+        right: inherit;
+    }
+}
+
+.how-works {
+    .media {
+        i {
+            margin-right: 0 !important;
+            margin-left: 16px !important;
+        }
+    }
+}
+
+/* About Page CSS */
+.page-title {
+    ul {
+        li {
+            &::before {
+                left: -28px;
+                right: inherit;
+                top: 3px;
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+
+/* Job Destails Page CSS */
+.job-details-text {
+    .details-text {
+        ul {
+            padding-right: 0;
+        }
+    }
+}
+
+/* Candidates CSS */
+.candidate-info-text {
+    &.candidate-experience {
+        ul {
+            padding-left: 0;
+            padding-right: 20px;
+        }
+    }
+}
+
+/* Company page CSS */
+.company-style-two {
+    .pagination {
+        padding-right: 0;
+    }
+}
+
+/* Account Page CSS */
+.account-information {
+    ul {
+        padding-right: 0;
+        text-align: right;
+
+        li {
+            a {
+                i {
+                    margin-right: 0;
+                    margin-left: 5px;
+                }
+            }
+        }
+    }
+}
+
+.account-details {
+    form {
+        .account-btn {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+    }
+}
+
+/* Sign In Page CSS  */
+.signin-section  {
+    .offset-lg-3 {
+        margin-right: 25%;
+        margin-left: 0;
+    }
+
+    .other-signin {
+        ul {
+            padding-right: 0;
+        }
+    }
+}
+
+/* Sign Up Page CSS  */
+.signup-section  {
+    .offset-lg-3 {
+        margin-right: 25%;
+        margin-left: 0;
+    }
+
+    .other-signup {
+        ul {
+            padding-right: 0;
+        }
+    }
+}
+
+/* Resume Page CSS */
+.resume-area {
+    .resume-content.basic-info-text {
+        ul {
+            padding-right: 0;
+
+            li {
+                margin-right: 0px;
+                margin-left: 20px;
+
+                span {
+                    margin-right: 0;
+                    margin-left: 30px;
+                }
+            }
+        }
+    }
+
+    .resume-content {
+        h3 {
+            i {
+                margin-left: 5px;
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+/* Error Page CSS */
+.error-section {
+    .offset-md-2 {
+        margin-right: 16.666667%;
+    }
+}
+
+/* Faq Page CSS */
+.faq-section {
+    .offset-lg-3 {
+        margin-right: 25%;
+    }
+}
+
+/* Category CSS */
+.pagination {
+    padding-right: 0;
+}
+
+.categories-section {
+    .offset-md-2 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+/* Blog Page CSS */
+.blog-widget {
+    &.blog-search {
+        form {
+            .form-group {
+                .form-control {
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    h3 {
+        &::before {
+            right: -30px;
+            left: inherit;
+        }
+    }
+
+    &.blog-category {
+        ul {
+            padding-right: 20px;
+        }
+    }
+
+    &.blog-tags {
+        ul {
+            padding-right: 0;
+        }
+    }
+}
+
+/* Blog Details CSS */
+.blog-dedails-text {
+    .details-tag ul {
+        padding-right: 0;
+    }
+}
+ 
+
+/* Contact CSS */
+.contact-card-section {
+    .offset-lg-1 {
+        margin-right: 8.333333%;
+    }
+}
+
+.contact-card {
+    ul {
+        padding-right: 0;
+    }
+}
+
+/**
+=======================
+Responsive CSS
+=======================
+**/
+
+@media (max-width:767px) {
+    /* Home Page One */
+    .footer-area {
+        .footer-widget.pl-60 {
+            padding-right: 0;
+        }
+    }
+
+    /* Home Page Two*/
+    .banner-style-two {
+        .banner-img {
+            left: inherit;
+        }
+    }
+
+    .job-card-two {
+        .job-info {
+            padding-right: 0;
+        }
+
+        .theme-btn.text-right {
+            text-align: center !important;
+        }
+    }
+
+    .testimonial-slider-two {
+        .testimonial-items {
+            .testimonial-info-text {
+                padding-left: 0px;
+                padding-right: 50px;
+            }
+        }
+    }
+
+    /* Home Page Three */
+    .banner-style-three {
+        z-index: 0;
+
+        &::before {            
+            z-index: -1;
+        }
+    }
+
+    .browse-job {
+        .browse-jobs-text {
+            .app-btn {
+                .app-store {
+                    margin-bottom: 10px;
+                }
+
+                .app-store, .play-store {
+                    i {
+                        left: inherit !important;
+                    }
+
+                    ul {
+                        padding-right: 30px;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+    }
+
+    .browse-job {
+        .browse-job-img {
+            left: 0;
+            right: inherit;
+        }
+    }
+
+    /* Home Page CSS */
+    .banner-style-four {
+        .banner-img {
+            left: 0;
+        }
+    }
+
+    /* Job List page CSS */
+    .job-list-section {
+        .pagination {
+            padding-right: 0;
+        }
+    }
+
+    /* Job Grid Page CSS */
+    .jobs-grid-section {
+        .pagination {
+            padding-right: 0;
+        }
+    }
+
+    
+    /* Candidates CSS */
+    .candidate-info-text {
+        &.candidate-experience {
+            ul {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+    }
+
+    /* Sign In Page CSS */
+    .signin-section {
+        .offset-lg-3 {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+
+    /* Sign Up Page CSS */
+    .signup-section {
+        .offset-lg-3 {
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+
+    /* Error CSS */ 
+    .error-section {
+        .offset-md-2 {
+            margin-right: 0;
+        }
+    }
+
+    /* Categories Page CSS */
+    .categories-section .offset-md-2 {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* Contact Page CSS */
+    .contact-card-section {
+        .offset-lg-1 {
+            margin-right: 0;
+        }
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /* Home Page One */
+    .footer-area {
+        .footer-widget.pl-60 {
+            padding-right: 0;
+        }
+    }
+
+    /* Home Page Three */
+    .banner-style-three {
+        z-index: 0;
+
+        &::before {            
+            z-index: -1;
+        }
+    }
+
+    .browse-job {
+        .browse-job-img {
+            left: 0;
+            right: inherit;
+        }
+    }
+
+    /* Home Page Four */
+    .category-style-three {
+        .offset-md-2 {
+            margin-left: 0;
+        }
+    }
+
+    .choose-style-two {
+        .offset-sm-2 {
+            margin-right: 16.666667%;
+            margin-left: inherit;
+        }
+    }
+
+    /* Sign In Page CSS */
+    .signin-section {
+        .offset-md-2 {
+            margin-right: 16.666667%;
+            margin-left: 0;
+        }
+    }
+
+    /* Sign Up Page CSS */
+    .signup-section {
+        .offset-md-2 {
+            margin-right: 16.666667%;
+            margin-left: 0;
+        }
+    }
+
+    /* Contact Page CSS */
+    .contact-card-section .offset-lg-1 {
+        margin-right: 0;
+    }
+}

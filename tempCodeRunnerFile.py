@@ -1,0 +1,1 @@
+kode_warna = tampilkan_hasil(warna_dominan, warna)
